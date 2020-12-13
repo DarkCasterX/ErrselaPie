@@ -9,8 +9,8 @@ def interactive_mode():
                 speech = input("What would you like ERRSELA to say? ")
                 interface.talk(speech).getdefaults()
             elif(cmd.lower() == 'movef'):
-                time = input("How long should ERRSELA move forward? ")
-                interface.moveforward(int(time)).getdefaults()
+                duration = input("How long should ERRSELA move forward? ")
+                interface.moveforward(int(duration)).getdefaults()
             elif(cmd.lower() == 'turnr'):
                 choice = input('Would you like to use the default settings for this function? ')
                 if(choice.lower() == 'yes'):
