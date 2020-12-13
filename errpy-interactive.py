@@ -1,5 +1,4 @@
 from errpy import errsela
-import sys
 
 def interactive_mode():
     interface = errsela()
